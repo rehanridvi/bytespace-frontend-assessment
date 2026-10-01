@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsxs)("html",{lang:"en",children:[(0,b.jsx)("head",{children:(0,b.jsx)("link",{rel:"icon",href:"/icons/logo.svg",type:"image/svg+xml"})}),(0,b.jsx)("body",{className:"min-h-screen bg-white text-[#040819] font-sans antialiased selection:bg-[#D4FB20] selection:text-black",children:a})]})},"metadata",0,{title:"ByteSpace - Online Learning Platform",description:"Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses."}])},70864,function(a){a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_2144vk_._.js.map

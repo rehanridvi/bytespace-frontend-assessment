@@ -1,0 +1,58 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #003BE2;
+  --color-brand-blue-hover: #0032c2;
+  --color-brand-blue-light: #E7F6FF;
+  --color-electric-lime: #D4FB20;
+  --color-electric-lime-hover: #c4ec13;
+  --color-dark: #040819;
+  --color-gray-50: #F5F5F6;
+  --color-gray-100: #E5E6E8;
+  --color-gray-200: #CED0D3;
+  --color-gray-300: #ABAEB5;
+  --color-gray-400: #82868E;
+  --color-gray-600: #666973;
+  --color-gray-800: #242528;
+  
+  --font-poppins: 'Poppins', sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+
+  --shadow-card: 0px 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0px 12px 32px rgba(0, 0, 0, 0.1);
+  --shadow-figma-a: 0.5px 0.7px 3px rgba(0, 0, 0, 0.04), 2.2px 3.2px 5.7px rgba(0, 0, 0, 0.06), 5.4px 7.7px 9.6px rgba(0, 0, 0, 0.07), 10.2px 14.6px 16px rgba(0, 0, 0, 0.08), 17px 24px 24px rgba(0, 0, 0, 0.09), 26px 37px 36px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #040819;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Satoshi', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.radial-glow-lime {
+  background: radial-gradient(circle at 50% 50%, rgba(203, 252, 1, 0.45) 0%, rgba(203, 252, 1, 0.1) 50%, rgba(203, 252, 1, 0) 75%);
+}
+
+.radial-glow-blue {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 59, 226, 0.25) 0%, rgba(0, 59, 226, 0.06) 53%, rgba(0, 59, 226, 0) 100%);
+}
